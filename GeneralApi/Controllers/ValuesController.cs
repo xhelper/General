@@ -12,7 +12,7 @@ namespace GeneralApi.Controllers {
     [ApiController]
     public class ValuesController : ControllerBase {
         /// <summary>
-        /// 测试用例
+        /// 哈哈
         /// </summary>
         /// <returns></returns>
         [HttpGet]
