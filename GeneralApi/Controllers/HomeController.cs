@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 /// 主页
 /// </summary>
 public class HomeController : ControllerBase {
-
     public ActionResult Index () {
         return Redirect ("~/swagger/");
     }

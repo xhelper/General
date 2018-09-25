@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Genneral.Core/Genneral.Core.csproj" />
+    <ProjectReference Include="../Genneral.Entities/Genneral.Entities.csproj" />
+    <ProjectReference Include="../Genneral.Framework/Genneral.Framework.csproj" />
+    <ProjectReference Include="../Genneral.Services/Genneral.Services.csproj" />
+  </ItemGroup>
+
+</Project>
